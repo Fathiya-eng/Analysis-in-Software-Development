@@ -1,0 +1,49 @@
+3. User Stories
+3.1 Definition of User Stories
+
+A user story is a short, simple description of a feature from the end user’s perspective.
+
+User Story Format:
+
+As a [type of user], I want [feature], so that [value/benefit].
+
+Example:
+As a customer, I want to transfer money so that I can pay others.
+
+3.2 How to Write Effective User Stories
+
+Good user stories follow the INVEST principle:
+
+Independent
+
+Negotiable
+
+Valuable
+
+Estimable
+
+Small
+
+Testable
+
+3.3 Acceptance Criteria
+
+Acceptance criteria define conditions that must be true for the story to be considered complete.
+
+Example:
+
+User must enter valid account number
+
+System shows confirmation message
+
+Transfer amount cannot exceed balance
+
+Acceptance criteria:
+
+Provide clarity
+
+Guide developers
+
+Define test cases
+
+Reduce misunderstandings
