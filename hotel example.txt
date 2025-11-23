@@ -1,0 +1,112 @@
+Hotel Management System – Analysis Phase Example
+System Overview
+
+The Hotel Management System (HMS) is designed to manage hotel operations including room booking, customer management, staff management, payments, and reporting. The system will support both customers and hotel staff with a web and mobile interface.
+
+1. User Stories
+
+Below are 15 user stories covering various features of the hotel system.
+
+ID	User Story	Priority	Story Points	Acceptance Criteria
+US1	As a guest, I want to search available rooms by date and type so that I can book a room that suits my needs.	High	8	- Room availability search shows correct rooms based on date and type.
+- Results display price, amenities, and room status.
+US2	As a guest, I want to book a room online so that I can reserve it before arriving at the hotel.	High	13	- Booking form captures guest info, check-in/out date, room type.
+- Payment integration works and confirms booking.
+- Confirmation email is sent.
+US3	As a guest, I want to cancel a booking so that I can change my plans.	Medium	5	- Guests can cancel within allowed timeframe.
+- System updates room availability.
+- Refund is processed according to policy.
+US4	As a hotel staff, I want to manage room inventory so that I can update room availability and status.	High	8	- Staff can mark rooms as available, occupied, or under maintenance.
+- Changes reflect in real-time on booking system.
+US5	As a guest, I want to view my booking history so that I can keep track of my stays.	Medium	5	- Booking history lists all past and upcoming bookings.
+- Each entry shows room type, dates, and payment status.
+US6	As a hotel admin, I want to generate daily revenue reports so that I can monitor the hotel's performance.	High	8	- Report shows daily, weekly, monthly revenue.
+- Includes breakdown by room type and services.
+US7	As a guest, I want to pay online securely so that I can complete my booking safely.	High	13	- Payment gateway supports credit/debit cards.
+- Transaction status is displayed.
+- Receipts are generated and emailed.
+US8	As a hotel staff, I want to check-in guests quickly so that front-desk operations are efficient.	High	8	- Staff can search booking by guest name.
+- System confirms booking and marks room as occupied.
+- ID verification is recorded.
+US9	As a hotel staff, I want to check-out guests efficiently so that I can free up rooms.	High	8	- Staff can finalize billing.
+- System marks room as available.
+- Invoice is sent to guest.
+US10	As a guest, I want to request extra services (like spa, breakfast, or taxi) so that I can enhance my stay.	Medium	5	- Requests are recorded in the system.
+- Staff receives notification.
+- Guest can see service status.
+US11	As a hotel admin, I want to manage staff roles and permissions so that system access is controlled.	Medium	8	- Admin can add/remove staff and assign roles.
+- Role permissions control access to functions.
+US12	As a guest, I want to provide feedback after my stay so that I can share my experience.	Low	3	- Guest can submit ratings and comments.
+- Feedback is visible to staff/admin.
+US13	As a hotel admin, I want to track room maintenance so that I can prevent service issues.	Medium	5	- Maintenance logs are recorded per room.
+- Notifications alert staff when maintenance is due.
+US14	As a guest, I want to receive promotional offers via email so that I can avail discounts.	Low	3	- System can send automated emails.
+- Offers include valid dates and room types.
+US15	As a guest, I want to view available amenities and services before booking so that I can choose suitable rooms.	Medium	5	- Room listings display amenities (Wi-Fi, AC, minibar, etc.).
+- Amenities are updated by staff.
+2. Product Backlog
+
+The product backlog organizes the user stories by priority and story points for sprint planning.
+
+Backlog Item	Priority	Story Points	Notes
+US1 – Room Search	High	8	Must be implemented first for booking functionality.
+US2 – Book Room	High	13	Core feature for revenue generation.
+US7 – Online Payment	High	13	Required for completing bookings.
+US4 – Room Inventory Management	High	8	Supports accurate room availability.
+US8 – Check-in	High	8	Enhances front-desk efficiency.
+US9 – Check-out	High	8	Critical for operations.
+US6 – Revenue Reports	High	8	For admin insights.
+US3 – Cancel Booking	Medium	5	Improves user flexibility.
+US5 – Booking History	Medium	5	Enhances guest experience.
+US10 – Extra Services	Medium	5	Adds upsell opportunities.
+US11 – Staff Management	Medium	8	Required for secure access.
+US13 – Maintenance Tracking	Medium	5	Prevents operational issues.
+US15 – Amenities View	Medium	5	Helps guests decide before booking.
+US12 – Feedback	Low	3	Optional feature for engagement.
+US14 – Promotions	Low	3	Marketing functionality.
+3. Acceptance Criteria Summary
+
+Acceptance criteria are key to defining “done” for each user story:
+
+Must be specific, measurable, and testable.
+
+Example for US2 (Book Room):
+
+Guest provides personal details (name, email, phone).
+
+Booking dates and room type are selected.
+
+Payment is processed via secure gateway.
+
+Booking confirmation is generated and sent.
+
+Room status is updated to “booked” in real-time.
+
+Example for US4 (Room Inventory Management):
+
+Staff can mark room status as Available/Occupied/Maintenance.
+
+Changes immediately reflect in the booking system.
+
+History of changes is logged for audit.
+
+Each story in the backlog above has clearly defined acceptance criteria in the user stories table.
+
+4. Diagrams (Optional for Analysis Phase)
+
+Use Case Diagram
+
+Actors: Guest, Staff, Admin
+
+Use Cases: Search Room, Book Room, Check-in, Check-out, Manage Rooms, Generate Reports, Payment, Feedback.
+
+Workflow Example – Booking Process
+Guest -> Search Room -> Select Room -> Enter Details -> Make Payment -> Booking Confirmed -> Email Sent
+
+il Sent
+Entity Relationship Diagram (ERD)
+
+Entities: Guest, Booking, Room, Payment, Staff, Service, Feedback
+
+Relationships: Guest ↔ Booking ↔ Room, Booking ↔ Payment, Room ↔ Service, Guest ↔ Feedback
+
