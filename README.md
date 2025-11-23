@@ -2,12 +2,54 @@
 
 <img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/38c490b8-e4f4-4904-8219-61a10f003af1" />
 
+Diagram: Where the Analysis Phase Fits in SDLC: 
++-----------+      +-----------+      +-----------+      +-----------+
+| Planning  | ---> | Analysis  | ---> |  Design   | ---> |  Development |
++-----------+      +-----------+      +-----------+      +-----------+
+                           |
+                           v
+                    +-----------+
+                    | Testing   |
+                    +-----------+
+                           |
+                           v
+                    +---------------+
+                    | Deployment    |
+                    +---------------+
+                           |
+                           v
+                    +---------------+
+                    | Maintenance   |
+                    +---------------+
 
-Example product backlog table (Markdown)
-| ID   | Title                   | Description                        | Priority | Story Points | Status |
-|------|-------------------------|------------------------------------|----------|--------------|--------|
-| US01 | Create bank account     | Online sign-up + verification      | High     | 5            | To Do  |
-| US02 | Customer login          | Secure login + 2FA                 | High     | 8            | To Do  |
-| US03 | View balance            | Show available & ledger balance    | High     | 3            | To Do  |
-| US04 | Transfer money          | Internal & external transfers      | High     | 8            | To Do  |
-| ...  | ...                     | ...                                | ...      | ...          | ...    |
+Main Activities in the Analysis Phase: 
+| Activity                  | Description                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| **Requirement Gathering** | Meeting users, interviews, surveys, collecting all needs        |
+| **Requirements Analysis** | Checking requirements for clarity, consistency, and feasibility |
+| **Process Modeling**      | Creating diagrams (DFD, UML use cases) to visualize workflows   |
+| **Defining Requirements** | Writing *Functional* and *Non-functional* Requirements          |
+| **Documentation**         | Creating the **SRS (Software Requirements Specification)**      |
+
+Requirements Breakdown:
+                         +------------------------+
+                         |     System Needs       |
+                         +------------------------+
+                                   |
+        -------------------------------------------------------------
+        |                          |                               |
++---------------------+  +---------------------------+  +------------------------+
+| Functional Needs    |  | Non-Functional Needs      |  | Business Requirements |
++---------------------+  +---------------------------+  +------------------------+
+| - Login system      |  | - Performance             |  | - Increase efficiency |
+| - Search feature    |  | - Security                |  | - Reduce cost         |
+| - Payment process   |  | - Reliability             |  | - High ROI            |
++---------------------+  +---------------------------+  +------------------------+
+
+Why the Analysis Phase Is Important?
+| Benefit                      | Explanation                                       |
+| ---------------------------- | ------------------------------------------------- |
+| **Clarity**                  | Ensures developers fully understand what to build |
+| **Prevents Rework**          | Fixing mistakes later is 10x more expensive       |
+| **Improves Planning**        | Helps estimate time and cost accurately           |
+| **Better User Satisfaction** | Because real needs are captured                   |
