@@ -1,0 +1,106 @@
+5. Complete Banking System Example
+
+Below is a full Agile example covering:
+
+Product backlog
+
+User stories
+
+Acceptance criteria
+
+Weighting
+
+Priorities
+
+5.1 Banking System Product Backlog
+ID	User Story	Priority	Story Points	Status
+US01	Create bank account	High	5	Pending
+US02	Customer login	High	8	Pending
+US03	View account balance	High	3	Pending
+US04	Transfer money	High	8	Pending
+US05	Deposit funds	Medium	5	Pending
+US06	Withdraw funds	Medium	5	Pending
+US07	View transaction history	Medium	8	Pending
+US08	Request loan	Low	13	Pending
+US09	Pay loan installment	Medium	8	Pending
+US10	Download bank statements	Low	5	Pending
+US11	Manage customer profile	Medium	5	Pending
+US12	Add two-factor authentication	High	13	Pending
+5.2 User Stories with Acceptance Criteria
+US01 – Create Bank Account
+
+As a new customer
+I want to create an online bank account
+So that I can access banking services
+
+Acceptance Criteria:
+
+User must provide valid national ID
+
+Email/phone verification required
+
+Account number generated automatically
+
+Story Points: 5
+Priority: High
+
+US02 – Customer Login
+
+As a customer
+I want to log in securely
+So that I can access my account
+
+Acceptance Criteria:
+
+Login requires email/phone + password
+
+Incorrect login attempts lock the account
+
+Supports two-factor authentication
+
+Story Points: 8
+Priority: High
+
+US03 – View Account Balance
+
+As a customer
+I want to view my balance
+So that I can know my available funds
+
+Acceptance Criteria:
+
+Balance updates in real time
+
+Shows available and total balance
+
+Story Points: 3
+Priority: High
+
+US04 – Transfer Money
+
+As a customer
+I want to transfer money
+So that I can send payments
+
+Acceptance Criteria:
+
+Transfer cannot exceed available balance
+
+User must confirm the transfer
+
+Transaction reference number generated
+
+Story Points: 8
+Priority: High
+
+US05 – Deposit Funds
+
+Acceptance criteria similar.
+
+US06 – Withdraw Funds
+US07 – Transaction History
+US08 – Loan Request
+US09 – Loan Payment
+US10 – Download Statement
+US11 – Customer Profile Management
+US12 – Two-Factor Authentication
