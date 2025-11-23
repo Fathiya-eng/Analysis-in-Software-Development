@@ -1,0 +1,65 @@
+4. Weighting and Estimation
+
+4.1 Story Point Estimation Techniques
+
+Story points measure:
+
+Complexity
+
+Effort
+
+Risk
+
+Common scales:
+
+Fibonacci numbers (1, 2, 3, 5, 8, 13…)
+
+T-shirt sizes (S, M, L, XL)
+
+Power of 2 (1, 2, 4, 8…)
+
+4.2 Planning Poker
+
+A collaborative estimation technique:
+
+Team reads a user story
+
+Each member picks a card representing story points
+
+All cards are revealed at once
+
+Discussion happens if estimates differ
+
+Final estimate agreed
+
+4.3 T-Shirt Sizing
+
+Used for early estimation when details are incomplete:
+
+XS
+
+S
+
+M
+
+L
+
+XL
+
+Maps later to story points.
+
+4.4 Weighting by Complexity, Priority & Business Value
+
+Each story is scored based on:
+
+Technical complexity
+
+Business value
+
+Risk
+
+Dependencies
+
+Urgency
+
+Weighted stories help product owners determine sprint scope.
