@@ -1,0 +1,89 @@
+Hospital Management System – Analysis Phase Example
+1. System Overview
+
+The Hospital Management System (HMS) is designed to manage hospital operations efficiently, including patient management, appointments, doctor schedules, billing, pharmacy, lab tests, and reporting. The goal is to improve patient care, streamline workflows, and maintain accurate records.
+
+Key Modules:
+
+Patient Management
+
+Doctor/Staff Management
+
+Appointment Scheduling
+
+Billing & Payments
+
+Pharmacy Management
+
+Laboratory Management
+
+Reporting & Analytics
+
+Notifications & Alerts
+
+2. User Stories
+
+Here’s a comprehensive list of 10–15 user stories for different HMS features.
+| **ID** | **User Story**                                                                                                       | **Weight (Story Points)** | **Acceptance Criteria**                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US01   | As a patient, I want to register online so that I can create a hospital account before visiting.                     | 5                         | - Patient can create account with name, DOB, email, phone. <br>- System validates email and phone. <br>- Account is stored in database.                               |
+| US02   | As a patient, I want to book an appointment with a doctor so that I can consult at a preferred time.                 | 8                         | - Patient can view doctor schedule. <br>- Patient can select date/time slot. <br>- Appointment is confirmed and stored in system. <br>- Notification sent to patient. |
+| US03   | As a doctor, I want to view my daily appointments so that I can plan my schedule.                                    | 5                         | - Doctor can log in. <br>- System displays all appointments for the day. <br>- Appointments include patient name, time, and reason for visit.                         |
+| US04   | As a receptionist, I want to check in a patient so that the patient’s arrival is recorded.                           | 3                         | - Receptionist selects patient from appointment list. <br>- Check-in time is recorded. <br>- Patient status updated to "Checked-in".                                  |
+| US05   | As a billing staff, I want to generate invoices so that I can charge patients for services rendered.                 | 8                         | - Billing staff selects patient. <br>- System generates invoice with itemized services. <br>- Invoice can be printed or emailed.                                      |
+| US06   | As a pharmacist, I want to manage medicine stock so that I can ensure availability of drugs.                         | 5                         | - Pharmacy staff can add/update/remove medicine. <br>- System tracks stock levels. <br>- Alerts sent when stock is low.                                               |
+| US07   | As a lab technician, I want to record lab test results so that doctors and patients can access them.                 | 8                         | - Technician can input test results. <br>- Results linked to patient and appointment. <br>- Doctor/patient can view results online.                                   |
+| US08   | As a doctor, I want to prescribe medication digitally so that the patient can directly collect from pharmacy.        | 5                         | - Doctor selects patient and medicines. <br>- Prescription is sent to pharmacy system. <br>- Patient receives confirmation.                                           |
+| US09   | As a patient, I want to view my medical history so that I can track my past consultations and treatments.            | 5                         | - Patient can log in. <br>- System displays past appointments, prescriptions, lab results. <br>- History is read-only.                                                |
+| US10   | As a system admin, I want to generate hospital reports so that management can analyze operations.                    | 8                         | - Admin can select report type (financial, appointments, occupancy). <br>- System generates report in PDF/Excel.                                                      |
+| US11   | As a nurse, I want to update patient vitals so that doctors have current information for treatment.                  | 5                         | - Nurse can input vitals (BP, temperature, heart rate). <br>- Data saved under patient record. <br>- Accessible by doctor.                                            |
+| US12   | As a patient, I want to cancel an appointment so that I can manage my schedule.                                      | 3                         | - Patient can select appointment. <br>- Cancellation confirmation displayed. <br>- Appointment status updated. <br>- Notification sent to doctor.                     |
+| US13   | As a receptionist, I want to assign rooms to patients so that hospital occupancy is organized.                       | 5                         | - Staff selects patient and assigns room. <br>- Room status updated to "Occupied". <br>- System prevents double-booking.                                              |
+| US14   | As a patient, I want to receive notifications/reminders for appointments and test results so that I don’t miss them. | 3                         | - Patient receives SMS/email for upcoming appointments. <br>- Notification sent when lab results are ready.                                                           |
+| US15   | As a doctor, I want to consult telemedicine patients online so that I can treat patients remotely.                   | 8                         | - Doctor can view scheduled telemedicine appointments. <br>- Video consultation initiated from system. <br>- Session recorded and notes stored.                       |
+
+
+3. Product Backlog
+
+Here’s a backlog prioritized with story points:
+
+Priority	User Story ID	Description	Story Points
+1	US01	Patient Registration	5
+2	US02	Book Appointment	8
+3	US03	Doctor Daily Appointments	5
+4	US04	Patient Check-in	3
+5	US05	Billing & Invoices	8
+6	US07	Lab Test Results Management	8
+7	US08	Doctor Digital Prescription	5
+8	US06	Pharmacy Stock Management	5
+9	US09	Patient Medical History	5
+10	US11	Nurse Updates Patient Vitals	5
+11	US12	Patient Appointment Cancellation	3
+12	US13	Assign Rooms to Patients	5
+13	US14	Notifications/Reminders	3
+14	US10	Admin Reports	8
+15	US15	Telemedicine Consultations	8
+
+Notes:
+
+Story points are weighted based on complexity, risk, and effort.
+
+High-priority stories are foundational for hospital operation (registration, appointments, billing).
+
+4. Acceptance Criteria Example
+
+Here’s a detailed format we can use for acceptance criteria (already included in the table above):
+
+Given [precondition]
+
+When [action is performed]
+
+Then [expected outcome]
+
+Example for US02 – Book Appointment:
+
+Given a patient is logged in
+
+When they select a doctor and time slot
+
+Then the appointment is confirmed, stored, and the patient receives a notification
