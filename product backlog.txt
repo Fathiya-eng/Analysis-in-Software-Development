@@ -1,0 +1,74 @@
+2. Product Backlog Development
+2.1 What Is a Product Backlog?
+
+A product backlog is a priority-ordered list of all work items the software needs, including:
+
+Features
+
+Enhancements
+
+Bug fixes
+
+Technical tasks
+
+Research (spikes)
+
+It represents the single source of truth for the development team.
+
+2.2 How to Create a Product Backlog
+Step 1: Collect Requirements
+
+Gather all functional and non-functional requirements.
+
+Step 2: Break Requirements into Product Backlog Items
+
+Each backlog item should be:
+
+Short
+
+Describable
+
+Testable
+
+Step 3: Prioritize the Backlog
+
+Assign importance based on:
+
+Business value
+
+Urgency
+
+Dependencies
+
+Step 4: Estimate Workload
+
+Use story points or time estimates.
+
+2.3 Backlog Prioritization Techniques
+
+MoSCoW: Must have, Should have, Could have, Won’t have
+
+Value vs. Effort matrix
+
+Risk-based prioritization
+
+Kano model
+
+Weighted Shortest Job First (WSJF)
+
+2.4 Backlog Refinement
+
+Also called backlog grooming.
+Occurs every sprint to:
+
+Add new items
+
+Re-estimate tasks
+
+Split large stories
+
+Remove unnecessary items
+
+Correct priorities
+
+Backlog refinement keeps development efficient and predictable.
